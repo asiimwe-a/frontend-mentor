@@ -1,0 +1,97 @@
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--pale-blue);
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+    max-height: 100vh;
+}
+
+.card {
+    background-color: white;
+    max-width: 425px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+img.hero {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.text-content {
+    padding: 30px;
+}
+
+p {
+    color: var(--desaturated-blue);
+    font-weight: 700;
+}
+
+.plan {
+    background-color: var(--very-pale-blue);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.btn-change {
+    border-style: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+    text-decoration: underline;
+    color: var(--bright-blue);
+    font-weight: 700;
+}
+
+div.annual {
+    display: flex;
+    align-items: center;
+}
+
+img.music {
+    margin-right: 10px;
+}
+
+h1,
+h4 {
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+.prd-btn {
+    background-color: var(--bright-blue);
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.proceed {
+    border-style: none;
+    background: none;
+    color: white;
+    padding: 15px;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.cancel {
+    border-style: none;
+    background: none;
+    color: var(--desaturated-blue);
+    font-weight: 700;
+}
